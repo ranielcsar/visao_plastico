@@ -1,34 +1,29 @@
 # Modelo de detecção de objetos com ML Kit Vision Quickstart Sample App
 
-## Intro
+### Intro
 
-Criei um modelo que detecta lixos plásticos e fiz funcionar no smartphone, usando o MLKit app da Google.
+Modelo criado com o objetivo de detectar lixos plásticos e funcionar diretamente no *smartphone*, usando o MLKit app da Google.
 
-## Feature List
+### Funcionalidades do app
 
-Features that are included in this Quickstart app:
-* [Object Detection](https://developers.google.com/ml-kit/vision/object-detection/android) - Detect, track, and classify objects in real time.
+- **[Detecção de Objetos](https://developers.google.com/ml-kit/vision/object-detection/android)** - Detecção, rastreiamento e classificação de objetos em tempo real.
 
-## Getting Started
+Há também configurações que permitem algumas opções como:
 
-* Run the sample code on your Android device or emulator
+- **Câmera**
+   - Usar frontal ou traseira.
+- **Detecção de Objetos / Detecção de Objetos Personalizada**
+   - **Ativar múltiplos objetos** (*Enable multiple objects*): Permite que múltiplos objetos sejam detectados ao mesmo tempo.
 
-### Live Camera scenario
-It uses the camera preview as input and contains these API workflows: Object detection & tracking, Face Detection, Face Mesh Detection, Text Recognition, Barcode Scanning, Image Labeling, and Pose Detection. There's also a settings page that allows you to configure several options:
-* Camera
-    * Preview size - Specify the preview size of rear/front camera manually (Default size is chosen appropriately based on screen size)
-    * Enable live viewport - Toggle between blocking camera preview by API processing and result rendering or not
-* Object detection / Custom Object Detection
-    * Enable multiple objects -- Enable multiple objects to be detected at once
-    * Enable classification -- Enable classification for each detected object
+---
 
-## Support
+### Suporte
 
 * [Documentation](https://developers.google.com/ml-kit/guides)
 * [API Reference](https://developers.google.com/ml-kit/reference/android)
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/google-mlkit)
 
-## License
+### License
 
 Copyright 2020 Google, Inc.
 
